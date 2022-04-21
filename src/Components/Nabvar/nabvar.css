@@ -1,0 +1,63 @@
+.contenedor-nabvar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.link-inicio{
+    display: flex;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+.link-inicio a{
+    color: #00b6bc;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.14rem;
+    padding: 5px;
+    background-color: #c1f8fa;
+    border-radius: 7px;
+    box-shadow: 1px 10px 10px #cee7e8;
+}
+.link-inicio a:hover{
+background-color: #00c4cc;
+color: #fff;
+box-shadow: none
+}
+.contenedor-nabvar button{
+    background-color: #00c4cc;
+    border: none;
+    border-radius: 50%;
+    font-size: 1rem;
+    width: 35px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 10px 10px #cee7e8;
+}
+.contenedor-nabvar button:hover{
+    background-color: red;
+    box-shadow: none
+
+}
+.swal2-confirm.swal2-styled{
+    background-color: red;
+}
+.swal2-container.swal2-center.swal2-backdrop-show{
+    background-color: #162a2bcf;
+    
+}
+.swal2-container.swal2-center>.swal2-popup {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0.731);
+    border-radius: 7px;
+}
+.swal2-title{
+    color: rgba(255, 255, 255, 0.703);
+    font-weight: 100;
+    font-size: 1.3rem;
+}

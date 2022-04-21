@@ -1,0 +1,14 @@
+
+
+.btn-volver button{
+    background-color: white;
+    border-color: transparent;
+}
+.btn-volver img{
+    width: 300px;
+    padding-right: 3rem;
+    cursor: pointer;
+}
+.btn-volver img:hover{
+    transform: scale(0.9);
+}

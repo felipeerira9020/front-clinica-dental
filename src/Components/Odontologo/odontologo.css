@@ -1,0 +1,87 @@
+.contenedor-odontologo {
+    width: 100%;
+    margin: 0 auto;   
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9)),
+    url('https://st2.depositphotos.com/1177973/11811/i/600/depositphotos_118111558-stock-photo-dentist-examining-girls-teeth.jpg');
+
+    
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.p-component{
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-weight: 500;
+    box-shadow: 1px 7px 7px rgba(20, 13, 13, 0.144);
+ 
+
+}
+
+.p-panel-title{
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 5px;
+    
+}
+.p-panel .p-panel-header{
+    border: 0px solid transparent;
+    padding: 0.857rem 1rem;
+    color: #ffffff;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #056b6ff1;
+
+   
+}
+.p-panel .p-panel-content {
+    padding: 0.571rem 1rem;
+    border: 1px solid #c8c8c8;
+    background: #056b6ff1;
+    color: #333333;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 0 none;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.559);
+
+}
+
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+    background: var(--color-principal);
+    color: #ffffff;
+}
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: var(--color-principal);  
+    border-color: var(--color-principal);
+    color: #ffffff;
+}
+.contenedor-odontologo .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: rgba(255, 255, 255, 0.836);
+}
+.p-button.p-component{
+    background: var(--color-principal);  
+}
+.p-dialog .p-dialog-header {
+    background: #056b6ff1;
+    
+}
+

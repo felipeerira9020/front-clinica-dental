@@ -1,0 +1,23 @@
+.odont-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont-return{
+    display: flex;
+    align-items: center;
+}
+
+.cont-return a{
+    color: #00c4cc;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.14rem;
+    padding: 5px;
+    
+}
+.cont-return a:hover{
+background-color: #00c4cc;
+color: #fff;
+border-radius: 7px;
+}

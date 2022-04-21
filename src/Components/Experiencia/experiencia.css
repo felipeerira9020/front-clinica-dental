@@ -1,0 +1,31 @@
+.contenedor-exp{
+    background-color: #bdfdff7a;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4rem 0rem;
+    margin-top: 100px;
+    border-radius: 5px;
+
+}
+.experiencia{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.card-exp{
+    width: 13em;
+    text-align: center;
+}
+.card-exp h3{
+    font-size: 1.375em;
+    color:var(--color-principal);
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.card-exp p {
+    color: #545454;
+    line-height: 1.6rem;
+    padding-bottom: 2rem;
+}
